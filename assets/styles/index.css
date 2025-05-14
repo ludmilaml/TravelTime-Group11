@@ -79,6 +79,7 @@ main{
 
 .main-index-section-opinions-article {
   width: 300px;
+  height: 200px;
   padding: 20px;
   background-color: var(--orange);
   color: var(--white-grey);
@@ -86,8 +87,8 @@ main{
 }
 
 .main-index-section-opinions-article-imagen-img {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
 }
 
 .main-index-section-opinions-article-h5{
@@ -96,6 +97,26 @@ main{
 
 .main-index-section-opinions-article-p{
     font-size: x-small;
+}
+
+.main-index-section-opinions-article-imagen-icon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    cursor: default;
+    margin-bottom: 20px;
+}
+
+.main-index-section-opinions-article-imagen-icon i{
+    display: block;
+    font-size: 20px;
+    padding: 13px;
+    width: 45px;
+    height: 45px;
+    background-color: var(--white-grey);
+    color: var(--orange);
+    border-radius: 50%;
+    transition: all 5s;
 }
 
 /*FIN OPINIONES*
