@@ -1,80 +1,174 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/3023c93a1c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap"
+      rel="stylesheet"
+    />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/styles/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poetsen+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
-</head>
+    <link rel="stylesheet" href="assets/styles/index.css" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <div>
-            Icon
-        </div>
-        <nav class="header-nav">
-            <ul class="header-nav-ul">
-                <li>
-                    Inicio
-                </li>
-                <li>
-                    Destinos
-                </li>
-                <li>
-                    Agregar
-                </li>
-                <li>
-                    Nosotros
-                </li>
-                <li>
-                    contactanos
-                </li>
-            </ul>
-        </nav>
-
+      <div><a href="/index.html">Icon</a></div>
+      <nav class="header-nav">
+        <ul class="header-nav-ul">
+          <li><a href="/index.html">Inicio</a></li>
+          <li><a href="/nosotros.html">Destinos</a></li>
+          <li><a href="#">Agregar</a></li>
+          <li><a href="/nosotros.html">Nosotros</a></li>
+          <li><a href="/contactanos.html">contactanos</a></li>
+        </ul>
+      </nav>
     </header>
-    
-    <main>
-        
+
+    <main class="main-index">
+      <div class="main-index-banner"></div>
+
+      <!--Destinos mas populares -->
+      <section class="main-index-section">
+        <h3 class="main-index-section-h3">Destinos más populares</h3>
+        <div class="main-index-section-article-div">
+          <article class="main-index-section-article">
+            <div class="main-index-section-article-imagen">
+              <img src="./assets/imagenes/spain.jpg" />
+            </div>
+            <p class="main-index-section-article-p"></p>
+          </article>
+          <article class="main-index-section-article">
+            <div class="main-index-section-article-imagen">
+              <img src="./assets/imagenes/spain.jpg" />
+            </div>
+            <p class="main-index-section-article-p"></p>
+          </article>
+          <article class="main-index-section-article">
+            <div class="main-index-section-article-imagen">
+              <img src="./assets/imagenes/spain.jpg" />
+            </div>
+            <p class="main-index-section-article-p"></p>
+          </article>
+        </div>
+      </section>
+
+      <!--Fin destinos populares-->
+
+      <!--Inicio opiniones -->
+      <section class="main-index-section-opinions">
+        <h3 class="main-index-section-opinions-h3">¿Por qué elegirnos?</h3>
+        <div class="main-index-section-opinions-article-div">
+          <article class="main-index-section-opinions-article">
+            <div class="main-index-section-opinions-article-imagen-icon">
+              <i class="fa-solid fa-plane"></i>
+              <img
+                class="main-index-section-opinions-article-imagen-img"
+                src="./assets/imagenes/spain.jpg"
+              />
+            </div>
+            <h5 class="main-index-section-opinions-article-h5">
+              Servicio excepcional
+            </h5>
+            <p class="main-index-section-opinions-article-p">
+              Nuestro compromiso con la satisfacción del cliente significa que
+              vamos más allá para garantizar que su viaje sea impecable.
+            </p>
+          </article>
+          <article class="main-index-section-opinions-article">
+            <div class="main-index-section-opinions-article-imagen-icon">
+              <i class="fa-solid fa-plane"></i>
+              <img
+                class="main-index-section-opinions-article-imagen-img"
+                class="main-index-section-article-imagen-img"
+                src="./assets/imagenes/spain.jpg"
+              />
+            </div>
+            <h5 class="main-index-section-opinions-article-h5">
+              Valor por dinero
+            </h5>
+            <p class="main-index-section-opinions-article-p">
+              Trabajamos con socios confiables para ofrecer precios competitivos
+              sin comprometer la calidad.
+            </p>
+          </article>
+          <article class="main-index-section-opinions-article">
+            <div class="main-index-section-opinions-article-imagen-icon">
+              <i class="fa-solid fa-plane"></i>
+              <img
+                class="main-index-section-opinions-article-imagen-img"
+                src="./assets/imagenes/spain.jpg"
+              />
+            </div>
+            <h5 class="main-index-section-opinions-article-h5">
+              Servicio excepcional
+            </h5>
+            <p class="main-index-section-opinions-article-p">
+              Abogamos por prácticas de turismo receptivo que promuevan opciones
+              ecológicas que beneficien a las comunidades locales.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!--Fin opiniones-->
     </main>
 
     <footer class="footer">
-        <div class="footer-aboutUs-and-socialNetworks">
-            <div class="footer-aboutUs">
-                <h3>Sobre nosotros</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat.
-                </p>
-            </div>
-            <ul class="footer-socialNetworks">
-                <li><a href="#">I</a></li>
-                <li><a href="#">F</a></li>
-                <li><a href="#">T</a></li>
-            </ul>
+      <div class="footer-aboutUs-and-socialNetworks">
+        <div class="footer-aboutUs">
+          <h3>Sobre nosotros</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
         </div>
-        <div class="footer-siteMap">
-            <h3 class="footer-siteMap-h3">Acerca de</h3>
-            <ul class="footer-siteMap-ul">
-                <li>Home</li>
-                <li>Home</li>
-                <li>Home</li>
-                <li>Home</li>
-                <li>Home</li>
-                <li>Home</li>
-            </ul>
-        </div>
-        <div class="footer-developedBy">
-            <h3 class="footer-developedBy-h3">Desarrolado por:</h3>
-            <ul class="footer-developedBy-ul">
-                <li><a href="#">Integrante 1</a></li>
-                <li><a href="#">Integrante 1</a></li>
-                <li><a href="#">Integrante 1</a></li>
-            </ul>
-        </div>
-        <p class="footer-rightsReserved">© 2025. Todos los derechos reservados</p>
+        <ul class="footer-socialNetworks">
+          <li>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-siteMap">
+        <h3 class="footer-siteMap-h3">Acerca de</h3>
+        <ul class="footer-siteMap-ul">
+          <li><a href="/index.html">Inicio</a></li>
+          <li><a href="/nosotros.html">Destinos</a></li>
+          <li><a href="#">Agregar</a></li>
+          <li><a href="/nosotros.html">Nosotros</a></li>
+          <li><a href="/contactanos.html">contactanos</a></li>
+        </ul>
+      </div>
+      <div class="footer-developedBy">
+        <h3 class="footer-developedBy-h3">Desarrolado por:</h3>
+        <ul class="footer-developedBy-ul">
+          <li><a href="#">María José iturria</a></li>
+          <li><a href="#">Nadia Paiz Cabra</a></li>
+          <li><a href="#">Ludmila Muñoz</a></li>
+        </ul>
+      </div>
+      <p class="footer-rightsReserved">© 2025. Todos los derechos reservados</p>
     </footer>
-</body>
-
+  </body>
 </html>

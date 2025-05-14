@@ -10,8 +10,8 @@
 
 /* Tipografías */
 :root {
-  --fuente1: "VT323", monospace;
-  --fuente2: "tagesschrift";
+  --poetsen-one-regular: "Poetsen One", sans-serif;
+  --poppins: "Poppins";
 }
 
 /*General*/
@@ -28,7 +28,9 @@
 body{
     background-color: var(--white-grey);
     width: 100%;
+    font-family: var(--poppins);
 }
+
 main{
     width: 100%;
 }
@@ -36,6 +38,67 @@ main{
 /*Fin General*/
 
 /*Inicio Home*/
+
+.main-index-banner{
+    width: 100%;
+    height: 300px;
+    background-color: var(--orange);
+}
+
+.main-index-section, .main-index-section-opinions{
+    width: 100%;
+}
+
+.main-index-section-h3, .main-index-section-opinions-h3{
+    width: 100%;
+    text-align: left;
+    font-family: var(--poetsen-one-regular);
+}
+
+.main-index-section-article-div, .main-index-section-opinions-article-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.main-index-section-article {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid var(--black);
+}
+
+.main-index-section-article-imagen img {
+  max-width: 100%;
+  height: auto; 
+  border-radius: 20px
+}
+
+
+/*INICIO OPINIONES*/
+
+.main-index-section-opinions-article {
+  width: 300px;
+  padding: 20px;
+  background-color: var(--orange);
+  color: var(--white-grey);
+  border-radius: 20px
+}
+
+.main-index-section-opinions-article-imagen-img {
+  width: 100px;
+  height: 100px;
+}
+
+.main-index-section-opinions-article-h5{
+    font-size: larger;
+}
+
+.main-index-section-opinions-article-p{
+    font-size: x-small;
+}
+
+/*FIN OPINIONES*
 
 /*Fin Home*/
 
