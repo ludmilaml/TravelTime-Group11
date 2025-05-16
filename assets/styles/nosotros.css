@@ -39,6 +39,13 @@
     text-align: right; 
 }
 
+.main-aboutUs-section-our-background-image-a{
+    background-color: var(--orange);
+    color: var(--white-grey);
+    padding: 10px;
+    border-radius: 15px;
+}
+
 /*Fin NOSOTROS*/
 
 @media (min-width: 768px){
